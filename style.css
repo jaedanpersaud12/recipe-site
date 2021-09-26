@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+body{
+  font-family: "Montserrat", sans-serif;
+  margin: 3em 8em;
+}
+
+.cake {
+  width: 50%;
+  float: right;
+  margin-left: 70px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  clear: both}
+
+.desc {
+  margin-bottom: 2em;;
+  line-height: 30px;
+}
+
+h4  {
+  font-weight: normal;
+}
+
+h3 {
+  text-align: center;
+}
+
+
+.row > div {
+  background-color: #eee;
+  margin-bottom: 1em;
+  padding: .5em 2em;
+}
+.column1 {
+  float: left;
+  margin-right: 1em;
+  width: 30%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+.clear {
+  clear: right;
+}
+ .column2 {
+   float: left;
+   width: 25.8%;
+   margin-right: 1em;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+ }
+
+ .column3 {
+   float: left;
+   width: 25.8%;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+ ul {
+   list-style: none;
+   line-height: 30px;
+ }
+
+ ul li::before {
+   content: "\2022";
+   color: brown;
+   font-weight: bold;
+   font-size: 25px;
+   display: inline-block;
+   width: 1em;
+   margin-left: -1em;
+ }
+
+ ol {
+   padding-left: 1.2em;
+ list-style: none;
+ counter-reset: item;
+ line-height: 30px;
+}
+
+ol li {
+   list-style-position: outside;
+  counter-increment: item;
+  margin-bottom: 0px;
+}
+ol li::before {
+  margin-right: 10px;
+   content: counter(item);
+   background: brown;
+   border-radius: 100%;
+   color: white;
+   padding: .01em;
+   width: 1.9em;
+   text-align: center;
+   display: inline-block;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.serving {
+  border-bottom: 3px solid brown;
+}
+
+.amount  {
+  text-align: left;
+}
+
+.column-serv1 {
+  float: left;
+  width: 50%;
+}
+
+.column-serv2 {
+  float: left;
+  width: 50%;
+}
+
+.column-serv3 {
+  float: left;
+  width: 50%;
+}
+
+.column-serv4 {
+  float: left;
+  width: 50%;
+}
+.column-serv5 {
+  float: left;
+  width: 50%;
+}
+
+.column-serv6 {
+  float: left;
+  width: 50%;
+}
+.column-serv7 {
+  float: left;
+  width: 50%;
+}
+
+.column-serv8 {
+  float: left;
+  width: 50%;
+}
+
+.column-serv9 {
+  float: left;
+  width: 50%;
+}
+
+.column-serv10 {
+  float: left;
+  width: 50%;
+}
