@@ -2,7 +2,7 @@
 
 body{
   font-family: "Montserrat", sans-serif;
-  margin: 3em 8em;
+  margin: 3em 5em;
 }
 
 .cake {
@@ -12,7 +12,8 @@ body{
   margin-bottom: 30px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
-  clear: both}
+  clear: both;
+}
 
 .desc {
   margin-bottom: 2em;;
@@ -29,6 +30,14 @@ h3 {
   font-size: 22px;
 }
 
+.row {
+margin: auto;
+overflow: auto;
+border: 2px solid black;
+clear: both;
+width: 100;
+}
+
 
 .row > div {
   background-color: #eee;
@@ -37,30 +46,28 @@ h3 {
 }
 .column1 {
   float: left;
+  width: 25%;
   margin-right: 1em;
-  width: 30%;
-
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
- .column-header {
-  background-color: ;
- }
 
 .clear {
   clear: right;
 }
+
  .column2 {
    float: left;
-   width: 25.8%;
-   margin-right: 1em;
+   width: 25%;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   border: 2px solid grey;
+     margin-right: 1em;
+   border-style: dashed;
 
  }
 
  .column3 {
    float: left;
-   width: 25.8%;
+   width: 25%;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    padding-bottom: 1em;
  }
