@@ -28,6 +28,13 @@ body{
   padding-right: 1em;
 }
 
+#scissors {
+  height: 40px;
+  position: absolute;
+float: left;
+margin-top: 30px;
+}
+
 .bake-time, .total-time{
   padding-right: 1em;
   padding-left: 1em;;
@@ -64,13 +71,14 @@ clear: both;
   display: inline-block ;
 }
 .column1 {
-  float: left;  width: 24%;
+  float: left;
+  width: 24%;
   margin-right: 2%;
 }
 
 .preparation {
   overflow: scroll;
-  height: 600px;
+  height: 700px;
 }
 .clear {
   clear: right;
@@ -82,7 +90,6 @@ clear: both;
    border: 2px solid grey;
     margin-right: 2%;
    border-style: dashed;
-
  }
 
  .column3 {
