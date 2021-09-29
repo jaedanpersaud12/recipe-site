@@ -16,12 +16,17 @@ body{
 }
 
 .info {
-  margin-bottom: 2em;
+  margin-bottom: 5em;
 }
 
 .info-header {
   float: left;
   border-right: 2px solid brown;
+  margin:
+}
+
+.info-header h3, p{
+  margin: 0;
 }
 
 .prep-time {
@@ -74,10 +79,17 @@ clear: both;
   float: left;
   width: 24%;
   margin-right: 2%;
+  overflow: scroll;
+}
+
+.column-header {
+  position: sticky;
+  top: -1px;
+  background-color: #eee;
 }
 
 .preparation {
-  overflow: scroll;
+
   height: 700px;
 }
 .clear {
