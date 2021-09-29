@@ -85,7 +85,7 @@ clear: both;
 .column-header {
   position: sticky;
   top: -1px;
-  background-color: #eee;
+  background-color: #efefef;
 }
 
 .preparation {
