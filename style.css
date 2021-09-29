@@ -2,7 +2,7 @@
 
 body{
   font-family: "Montserrat", sans-serif;
-  margin: 3em 5em;
+  margin: 1em 6em;
 }
 
 .cake {
@@ -71,12 +71,12 @@ clear: both;
    padding-bottom: 1em;
  }
 
- ul {
+ .column2 ul {
    list-style: none;
    line-height: 30px;
  }
 
- ul li::before {
+ .column2 ul li::before {
    content: "\2022";
    color: brown;
    font-weight: bold;
@@ -122,50 +122,34 @@ ol li::before {
   text-align: left;
 }
 
-.column-serv1 {
+.column-serv{
   float: left;
-  width: 50%;
+  width: 50%;}
+
+#navlist {
+  position: relative;
+  padding: 1em;
 }
 
-.column-serv2 {
-  float: left;
-  width: 50%;
+#navlist li {
+  margin: auto;
+  padding: 0;
+  list-style: none;
+  top: 0;
 }
 
-.column-serv3 {
-  float: left;
-  width: 50%;
+#navlist li, #navlist a {
+  height: 86px;
+  display: block;
 }
 
-.column-serv4 {
-  float: left;
-  width: 50%;
-}
-.column-serv5 {
-  float: left;
-  width: 50%;
+
+#logo {
+  left: 0px;
+  width: 395px;
+  background: url('images/logo.png') 0 0;
 }
 
-.column-serv6 {
-  float: left;
-  width: 50%;
-}
-.column-serv7 {
-  float: left;
-  width: 50%;
-}
-
-.column-serv8 {
-  float: left;
-  width: 50%;
-}
-
-.column-serv9 {
-  float: left;
-  width: 50%;
-}
-
-.column-serv10 {
-  float: left;
-  width: 50%;
+#logo:hover {
+    background: url('images/logo.png') -392px 0;
 }
