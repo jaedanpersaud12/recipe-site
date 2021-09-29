@@ -15,16 +15,36 @@ body{
   clear: both;
 }
 
-.desc {
-  margin-bottom: 2em;;
-  line-height: 30px;
+.info {
+  margin-bottom: 2em;
 }
 
-h4  {
+.info-header {
+  float: left;
+  border-right: 2px solid brown;
+}
+
+.prep-time {
+  padding-right: 1em;
+}
+
+.bake-time, .total-time{
+  padding-right: 1em;
+  padding-left: 1em;;
+}
+
+
+.desc {
+  margin-bottom: 1em;
+  line-height: 40px;
+  font-size: 17px;
+}
+
+.row h4  {
   font-weight: normal;
 }
 
-h3 {
+.row h3 {
   text-align: center;
   padding: .7em 0em .7em 0em;
   font-size: 22px;
